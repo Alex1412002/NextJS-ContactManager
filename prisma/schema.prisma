@@ -1,0 +1,15 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model contact { //pattern de la bdd
+  id Int @id @default(autoincrement())
+  nom String
+  prenom String
+  portable String
+}
