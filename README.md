@@ -8,5 +8,8 @@ In .env file, Edit value of DATABASE_URL
 ### Create a database
 Using Prisma CLI : prisma migrate save --name "migration name"
 
+#### Improvements
+Use a global Prisma Client to avoid creating and disconnecting client in each mutation / query
+
 
 
