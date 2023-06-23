@@ -1,5 +1,5 @@
 # NextJS-ContactManager
-Front-end built using the NextJS framework and a back-end built using PostgreSQL as the database and Prisma as the query tool.
+Front-end built using the NextJS framework and a back-end built using PostgreSQL as the database and Prisma as ORM.
 
 ## Create a new PostgreSQL table
 ### Link to a server
